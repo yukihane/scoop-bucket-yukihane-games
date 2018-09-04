@@ -1,0 +1,24 @@
+﻿{
+    "homepage":  "http://tanguband.github.io/",
+    "url":  "https://rlbuild.herokuapp.com/api/dl?path=%2Ftanguband%2Ftanguband-20180903191904-349f152-win.zip#/dl.zip",
+    "version":  "20180903191904-349f152",
+    "hash": "7a7e927d416c819a5773e4a388ce5f391bae82697f5ff56687297630b73db160",
+    "bin":  "Tanguband\\Tanguband.exe",
+    "pre_install":"
+      if(!(Test-Path(\"$persist_dir\"))) { New-Item \"$persist_dir\" -type directory | Out-Null }
+      if(!(Test-Path(\"$persist_dir\\Tanguband.INI\"))) { New-Item \"$persist_dir\\Tanguband.INI\" -type file | Out-Null }
+    ",
+    "post_install":"
+      if((Test-Path(\"$persist_dir\\save\\save\"))) { Remove-Item \"$persist_dir\\save\\save\" -Recurse | Out-Null }
+    ",
+    "persist": [
+      "Tanguband\\Tanguband.INI",
+      "Tanguband\\lib/save"
+    ],
+    "shortcuts": [
+      [
+        "Tanguband\\Tanguband.exe",
+	"Tanguband - 短愚蛮怒"
+      ]
+    ]
+}
