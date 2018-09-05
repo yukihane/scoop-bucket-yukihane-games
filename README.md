@@ -10,6 +10,5 @@
 
 # List
 
-* [hengband 変愚蛮怒](https://hengband.osdn.jp/)
-* [tanguband 短愚蛮怒](http://tanguband.github.io/)
+* [hengband 変愚蛮怒(shimitei)](https://rlbuild.herokuapp.com/)
 
