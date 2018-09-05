@@ -10,5 +10,5 @@
 
 # List
 
-* [hengband 変愚蛮怒(shimitei)](https://rlbuild.herokuapp.com/)
+* [hengband 変愚蛮怒(shimitei_labo)](https://rlbuild.herokuapp.com/)
 
