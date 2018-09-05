@@ -27,6 +27,7 @@
       "reverse": true
     },
     "autoupdate": {
-      "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-$version-$matchCommit-win.zip#/hengband.zip"
+      "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-$version-$matchCommit-win.zip#/hengband.zip",
+      "hash": ""
     }
 }
