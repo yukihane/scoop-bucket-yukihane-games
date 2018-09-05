@@ -1,7 +1,7 @@
 ﻿{
     "homepage": "https://rlbuild.herokuapp.com/",
     "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20180802230151-35ecb3d-win.zip#/hengband.zip",
-    "version": "20180802230151-35ecb3d",
+    "version": "20180802230151",
     "bin": "Hengband\\Hengband.exe",
     "pre_install": "
       if(!(Test-Path(\"$persist_dir\"))) { New-Item \"$persist_dir\" -type directory | Out-Null }
