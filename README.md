@@ -10,6 +10,6 @@
 
 # List
 
-* [hengband 変愚蛮怒(shimitei_labo)](https://rlbuild.herokuapp.com/)
+* [hengband-shimitei 変愚蛮怒(shimitei_labo)](https://rlbuild.herokuapp.com/)
 * [hengband-th 変愚蛮怒東方勝手版](http://www.miyamasa.net/heng_th_katte.html)
 
