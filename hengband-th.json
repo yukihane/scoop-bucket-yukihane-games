@@ -24,7 +24,7 @@
       ]
     ],
     "checkver": {
-      "re": "ダウンロード\(v([\\d\.]+\)"
+      "re": "ダウンロード\(v([\\d\.]+)\)"
     },
     "autoupdate": {
       "url": "http://www.miyamasa.net/heng_th_katte_$underscoreVersion.zip",
