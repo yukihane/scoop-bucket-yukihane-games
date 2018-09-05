@@ -1,6 +1,6 @@
 ﻿{
     "homepage": "https://rlbuild.herokuapp.com/",
-    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20180904065512-04bf06e-win.zip#/hengband-20180904065512-04bf06e-win.zip",
+    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20180904065512-04bf06e-win.zip#/hengband.zip",
     "version":  "20180904065512-04bf06e",
     "hash": "bfc056d3cf88166b3d52d8a51fe8e1f2c620bef6c3b7bd859d7293707cbffdb8",
     "bin":  "Hengband\\Hengband.exe",
@@ -20,5 +20,13 @@
         "Hengband\\Hengband.exe",
         "Hengband - 変愚蛮怒"
       ]
-    ]
+    ],
+    "checkver": {
+      "url": "https://rlbuild.herokuapp.com/api/ls?path=%252Fhengband",
+      "re": "hengband-(?<datetime>\\d+)-(?<commit>[a-fA-F0-9]{7})-win.zip",
+      "reverse", true
+    },
+    "autoupdate": {
+      "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-$matchDatetime-$matchCommit-win.zip#/hengband.zip"
+    }
 }
