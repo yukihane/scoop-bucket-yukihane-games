@@ -7,19 +7,20 @@
     "extract_dir": "heng_th_katte_1_1_50",
     "bin": "Hengband_th.exe",
     "pre_install": [
-        "",
-        "if(!(Test-Path(\"$persist_dir\"))) { New-Item \"$persist_dir\" -type directory | Out-Null }",
-        "if(!(Test-Path(\"$persist_dir\\Hengband_th.INI\"))) { New-Item \"$persist_dir\\Hengband_th.INI\" -type file | Out-Null }",
-        ""
-    ],
-    "post_install": [
-        "",
-        "if((Test-Path(\"$persist_dir\\save\\save\"))) { Remove-Item \"$persist_dir\\save\\save\" -Recurse | Out-Null }",
-        ""
+        ".\\bin\\hengband_backup_persist.ps1 Hengband_th > $null",
+        ".\\bin\\hengband_init_persist.ps1 Hengband_th > $null",
+        ".\\bin\\hengband_move_newdata.ps1 > $null"
     ],
     "persist": [
         "Hengband_th.INI",
-        "lib\\save"
+        "lib\\apex",
+        "lib\\bone",
+        "lib\\data",
+        "lib\\save",
+        "lib\\user"
+    ],
+    "post_install": [
+        ".\\bin\\hengband_set_newdata.ps1 > $null"
     ],
     "shortcuts": [
         [
