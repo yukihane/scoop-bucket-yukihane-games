@@ -6,10 +6,7 @@
     "hash": "bfc056d3cf88166b3d52d8a51fe8e1f2c620bef6c3b7bd859d7293707cbffdb8",
     "bin": "Hengband\\Hengband.exe",
     "pre_install": [
-        "",
-        "if(!(Test-Path(\"$persist_dir\"))) { New-Item \"$persist_dir\" -type directory | Out-Null }",
-        "if(!(Test-Path(\"$persist_dir\\Hengband.INI\"))) { New-Item \"$persist_dir\\Hengband.INI\" -type file | Out-Null }",
-        ""
+      ".\\bin\\init_persist.ps1"
     ],
     "post_install": [
         "",
