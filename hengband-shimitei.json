@@ -7,9 +7,9 @@
     "extract_dir": "Hengband",
     "bin": "Hengband.exe",
     "pre_install": [
-        ".\\bin\\hengband_backup_persist.ps1 Hengband",
-        ".\\bin\\hengband_init_persist.ps1 Hengband",
-        ".\\bin\\hengband_move_newdata.ps1"
+        ".\\bin\\hengband_backup_persist.ps1 Hengband > $null",
+        ".\\bin\\hengband_init_persist.ps1 Hengband > $null",
+        ".\\bin\\hengband_move_newdata.ps1 > $null"
     ],
     "persist": [
         "Hengband.INI",
@@ -20,7 +20,7 @@
         "lib\\user"
     ],
     "post_install": [
-        ".\\bin\\hengband_set_newdata.ps1"
+        ".\\bin\\hengband_set_newdata.ps1 > $null"
     ],
     "shortcuts": [
         [
