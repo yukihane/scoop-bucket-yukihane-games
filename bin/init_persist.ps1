@@ -1,8 +1,10 @@
+Param($execname)
+
 if (!(Test-Path("$persist_dir"))) {
   New-Item "$persist_dir" -type directory
 }
 if (!(Test-Path("$persist_dir\Hengband.INI"))) {
-  New-Item "$persist_dir\Hengband.INI" -type file
+  New-Item "$persist_dir\$execname.INI" -type file
 }
 if (!(Test-Path("$persist_dir\apex"))) {
   New-Item "$persist_dir\apex" -type directory
