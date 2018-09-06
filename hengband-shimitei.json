@@ -4,21 +4,27 @@
     "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20180904065512-04bf06e-win.zip#/hengband.zip",
     "version": "20180904065512",
     "hash": "bfc056d3cf88166b3d52d8a51fe8e1f2c620bef6c3b7bd859d7293707cbffdb8",
-    "bin": "Hengband\\Hengband.exe",
+    "extract_dir": "Hengband",
+    "bin": "Hengband.exe",
     "pre_install": [
         ".\\bin\\hengband_backup_persist.ps1 Hengband",
-        ".\\bin\\hengband_init_persist.ps1 Hengband"
-    ],
-    "post_install": [
-        "if((Test-Path(\"$persist_dir\\save\\save\"))) { Remove-Item \"$persist_dir\\save\\save\" -Recurse | Out-Null }"
+        ".\\bin\\hengband_init_persist.ps1 Hengband",
+        ".\\bin\\hengband_move_newdata.ps1"
     ],
     "persist": [
-        "Hengband\\Hengband.INI",
-        "Hengband\\lib\\save"
+        "Hengband.INI",
+        "lib\\apex",
+        "lib\\bone",
+        "lib\\data",
+        "lib\\save",
+        "lib\\user"
+    ],
+    "post_install": [
+        ".\\bin\\hengband_set_newdata.ps1"
     ],
     "shortcuts": [
         [
-            "Hengband\\Hengband.exe",
+            "Hengband.exe",
             "Hengband - 変愚蛮怒 (shimitei_labo)"
         ]
     ],
