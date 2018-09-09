@@ -1,4 +1,4 @@
-﻿Param($execname)
+Param($execname)
 
 .\bin\hengband_persist_dirs.ps1
 
