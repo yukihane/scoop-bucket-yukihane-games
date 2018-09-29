@@ -29,7 +29,7 @@
         ]
     ],
     "checkver": {
-        "re": "ダウンロード\\(v([\\d\\.]+)\\)"
+        "re": "A HREF = \"heng_th_katte_.*?\\(v([\\d\\.]+)\\)"
     },
     "autoupdate": {
         "url": "http://www.miyamasa.net/heng_th_katte_$underscoreVersion.zip",
