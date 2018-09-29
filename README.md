@@ -10,7 +10,7 @@
 
 # List
 
-* [hengband-shimitei 変愚蛮怒(shimitei_labo)](https://hengband.osdn.jp/)
+* [hengband 変愚蛮怒(shimitei_labo)](https://hengband.osdn.jp/)
 * [tanguband 短愚蛮怒](http://tanguband.github.io/)
 * [hengband-th 変愚蛮怒東方勝手版](http://www.miyamasa.net/heng_th_katte.html)
 
