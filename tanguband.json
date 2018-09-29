@@ -1,9 +1,9 @@
-﻿{
+{
     "homepage": "http://tanguband.github.io/",
     "description": "短愚蛮怒",
-    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Ftanguband%2Ftanguband-20180903191904-349f152-win.zip#/tanguband.zip",
-    "version": "20180903191904",
-    "hash": "7a7e927d416c819a5773e4a388ce5f391bae82697f5ff56687297630b73db160",
+    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Ftanguband%2Ftanguband-20180919061458-720f388-win.zip#/tanguband.zip",
+    "version": "20180919061458",
+    "hash": "dc6cbc11c4e19b161bbde9f026ef4d1e100e998eb9369d6d27e0337878c5a867",
     "extract_dir": "Tanguband",
     "bin": "Tanguband.exe",
     "pre_install": [
