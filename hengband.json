@@ -1,9 +1,9 @@
 {
     "homepage": "https://rlbuild.herokuapp.com/",
     "description": "変愚蛮怒(shimitei_labo version)",
-    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20190206061337-7cdb104-win.zip#/hengband.zip",
-    "version": "20190206061337",
-    "hash": "caef777fb95890ee2171ed23bc824defbc02f6f3d678ad81580c73c737c8dffb",
+    "url": "https://rlbuild.herokuapp.com/api/dl?path=%2Fhengband%2Fhengband-20190207070932-829cfbf-win.zip#/hengband.zip",
+    "version": "20190207070932",
+    "hash": "bc635957ab9d68750b5ea6e8be9d16e461a5a2826602fa6abb00a9deea77653e",
     "extract_dir": "Hengband",
     "bin": "Hengband.exe",
     "pre_install": [
