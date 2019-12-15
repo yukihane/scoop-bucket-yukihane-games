@@ -1,10 +1,10 @@
 {
     "homepage": "http://www.miyamasa.net/heng_th_katte.html",
     "description": "変愚蛮怒東方勝手版",
-    "url": "http://www.miyamasa.net/heng_th_katte_1_1_66.zip",
-    "version": "1.1.66",
-    "hash": "209a29a8be7aa2d94ec4a98172e74dadd32e5024a15252be8f6f3d77968d2521",
-    "extract_dir": "heng_th_katte_1_1_66",
+    "url": "http://www.miyamasa.net/heng_th_katte_1_1_67.zip",
+    "version": "1.1.67",
+    "hash": "3a5fcc4987bd6be17e7656ef711f2736e37f96cc5965a957f9ccb34dfa5de52b",
+    "extract_dir": "heng_th_katte_1_1_67",
     "bin": "Hengband_th.exe",
     "pre_install": [
         ".\\bin\\hengband_backup_persist.ps1 Hengband_th > $null",
